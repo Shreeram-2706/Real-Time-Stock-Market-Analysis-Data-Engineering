@@ -53,4 +53,4 @@ In this project, I designed and implemented a complete real-time data engineerin
 
 ## Power BI Output
 
-![Power BI Output])
+![Power BI Output](https://github.com/Shreeram-2706/Real-Time-Stock-Market-Analysis-Data-Engineering/blob/main/Power%20BI%20Output.png)
