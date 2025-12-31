@@ -10,13 +10,13 @@ In this project, I stream live stock market data, process and transform it throu
 In this project, I designed and implemented a complete real-time data engineering pipeline for stock market data.
 
 ### What I Did:
-- Pulled live stock market data from an external API
+- Pulled live stock market data from an external API (FINNHUB)
 - Streamed real-time data using Apache Kafka
-- Stored raw data in Amazon S3
+- Stored raw data in MinIo (Similiar to Amazon S3)
 - Loaded data into Snowflake
 - Transformed data using DBT following a layered data modeling approach
 - Orchestrated the entire workflow using Apache Airflow
-- Built interactive dashboards using Power BI
+- Built interactive dashboards using Power BI (PowerQuery)
 
 ---
 
@@ -27,7 +27,7 @@ In this project, I designed and implemented a complete real-time data engineerin
 ### Data Flow:
 1. I fetch real-time stock market data from an external API  
 2. I stream the data using Apache Kafka  
-3. I store raw data in an Amazon S3 bucket  
+3. I store raw data in an MinIO
 4. I load the data into Snowflake for analytics  
 5. I transform data using DBT through multiple layers:
    - **Raw Layer**
@@ -42,7 +42,7 @@ In this project, I designed and implemented a complete real-time data engineerin
 
 - **Python** – Data ingestion and processing  
 - **Apache Kafka** – Real-time data streaming  
-- **Amazon S3** – Raw data storage  
+- **MinIo** – Raw data storage  
 - **Snowflake** – Cloud data warehouse  
 - **DBT** – Data transformation and modeling  
 - **Apache Airflow** – Workflow orchestration  
@@ -50,3 +50,7 @@ In this project, I designed and implemented a complete real-time data engineerin
 - **Docker** – Containerized environment  
 
 ---
+
+## Power BI Output
+
+![Power BI Output])
